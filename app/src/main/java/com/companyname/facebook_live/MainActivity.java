@@ -108,8 +108,8 @@ public class MainActivity extends AppCompatActivity {
                         mobileEdit.setEnabled(true);
                         loginB.setEnabled(true);
                         reset.setVisibility(View.GONE);
-                        otpB.setVisibility(View.GONE);
-                        otpEdit.setVisibility(View.GONE);
+                        otpB.setVisibility(View.INVISIBLE);
+                        otpEdit.setVisibility(View.INVISIBLE);
                         break;
 
                     case DialogInterface.BUTTON_NEGATIVE:
