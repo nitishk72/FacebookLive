@@ -45,7 +45,11 @@ public class MainActivity extends AppCompatActivity {
         loginB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                sendOTP();
+                if ((mobileEdit.getText().toString()).length() < 8) {
+                    Toast.makeText(MainActivity.this, "Invalid Mobile NUMBER", Toast.LENGTH_SHORT).show();
+                } else {
+                    sendOTP();
+                }
             }
         });
 
@@ -53,8 +57,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String otp = otpEdit.getText().toString();
-                PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verification, otp);
-                verify(credential);
+                if (otp.isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Enter OTP First", Toast.LENGTH_SHORT).show();
+                } else {
+                    PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verification, otp);
+                    verify(credential);
+                }
             }
         });
 
@@ -108,8 +116,9 @@ public class MainActivity extends AppCompatActivity {
                         mobileEdit.setEnabled(true);
                         loginB.setEnabled(true);
                         reset.setVisibility(View.GONE);
-                        otpB.setVisibility(View.INVISIBLE);
-                        otpEdit.setVisibility(View.INVISIBLE);
+                        otpB.setVisibility(View.GONE);
+                        otpEdit.setVisibility(View.GONE);
+                        mobileEdit.setText("");
                         break;
 
                     case DialogInterface.BUTTON_NEGATIVE:

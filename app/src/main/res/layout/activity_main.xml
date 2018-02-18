@@ -3,21 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#508b8686"
     tools:context="com.companyname.facebook_live.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#508b8686"
         android:orientation="vertical"
         android:padding="15dp">
         <!--Logo-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
             android:paddingBottom="30dp"
             android:text="@string/firebase_auth"
             android:textAlignment="center"
-            android:textSize="22sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
             android:textStyle="bold" />
         <!--Mobile-->
         <EditText
