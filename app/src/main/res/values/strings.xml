@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Facebook-Live</string>
+    <string name="your_mobile_number">Your Mobile Number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify">VERIFY</string>
+    <string name="firebase_auth">Firebase Phone AUTH</string>
+    <string name="login">Login</string>
+    <string name="change_mobile_number">CHANGE MOBILE NUMBER</string>
+</resources>

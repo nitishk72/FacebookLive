@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "661419681082",
+    "firebase_url": "https://born-program.firebaseio.com",
+    "project_id": "born-program",
+    "storage_bucket": "born-program.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661419681082:android:0eb3e41a9c50ceca",
+        "android_client_info": {
+          "package_name": "com.companyname.facebook_live"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661419681082-a5591qb9frjdr9mphcehlkvl0o3age56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.facebook_live",
+            "certificate_hash": "18ca293d0c413e1afee890d4fb44392478e1b4ec"
+          }
+        },
+        {
+          "client_id": "661419681082-o4jb3rphp2mu4k2aihlp8ucj3kal0otd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "661419681082-37sn8vkseam57en7ftduk72ndn24aaf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdh72Furf7XLrXE0f-iSXTylYXpEl5Oko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661419681082-o4jb3rphp2mu4k2aihlp8ucj3kal0otd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
