@@ -1,2 +1,3 @@
-# FacebookLive
-This repository is not realted to facebook live. This project was created during facebook live session.
+# Firebase Authentication
+
+In this Project I had Authenticate the user using firebase Auth Featue.
